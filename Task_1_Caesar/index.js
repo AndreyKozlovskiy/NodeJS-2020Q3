@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { pipeline } = require('stream');
 const cipher = require('./cipher');
-const transformStream = require('./transformStream');
+const transformStream = require('./transformationStream');
 
 const commands = require('./commander');
 const { action, shift, input, output } = commands.opts();

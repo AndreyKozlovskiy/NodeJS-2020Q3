@@ -14,5 +14,3 @@ module.exports = function cipher(str, number) {
 
     return newString + '\n';
 };
-
-97-122

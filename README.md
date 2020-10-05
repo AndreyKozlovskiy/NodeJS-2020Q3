@@ -32,41 +32,41 @@ CLI tool should accept 4 options (short alias and full name):
 3. Examples:
 
 ```bash
-$ node index.js -a encode -s 15
+$ node index.js -a encode -s 9
 ```
 
 ```bash
-$ node index.js -a encode -s 15 -i "./files/input.txt"
+$ node index.js -a encode -s 10 -i "./files/in.txt"
 ```
 
 ```bash
-$ node index.js -a encode -s 15 -i "./files/input.txt" -o "./files/output.txt"
+$ node index.js -a encode -s 8 -i "./files/in.txt" -o "./files/out.txt"
 ```
 
 ```bash
-$ node index.js --action encode --shift 15
+$ node index.js --action encode --shift 10
 ```
 
 ```bash
-$ node index.js --action encode --shift 15 --input "./files/input.txt"
+$ node index.js --action encode --shift 13 --input "./files/in.txt"
 ```
 
 ```bash
-$ node index.js --action encode --shift 15 --input "./files/input.txt" --output "./files/output.txt"
+$ node index.js -a encode -s 12 -i "D:/in.txt" -o "D:/out.txt"
 ```
 
 ```bash
-$ node index.js -a encode -s 15 -i "./files/input.txt" -o "./files/output.txt"
+$ node index.js -a encode -s 8 -i C:/in.txt -o C:/out.txt
 ```
 
 ```bash
-$ node index.js -a encode -s 15 -i ./files/input.txt" -o ./files/output.txt
+$ node index.js --action encode --shift 9 --input "./files/in.txt" --output "./files/out.txt"
 ```
 
 ```bash
-$ node index.js -a encode -s 15 -i "D:/input.txt" -o "D:/output.txt"
+$ node index.js -a encode -s 10 -i "./files/input.txt" -o "./files/out.txt"
 ```
 
 ```bash
-$ node index.js -a encode -s 15 -i D:/input.txt -o D:/output.txt
+$ node index.js -a encode -s 12 -i ./files/input.txt" -o ./files/out.txt
 ```
